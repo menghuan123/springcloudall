@@ -9,7 +9,7 @@ import lombok.experimental.Accessors;
 @SuppressWarnings("serial")
 @NoArgsConstructor
 @Data
-@Accessors(chain=true)
+@Accessors(chain=true)//开启链式风格写法
 public class Dept implements Serializable{
 	
 	private Long 	deptno; // 主键
