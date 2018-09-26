@@ -1,7 +1,10 @@
 server:
   port: 80
-  
-  
+#开启熔断feign 
+feign: 
+  hystrix: 
+    enabled: true
+    
 eureka:
   client:
     register-with-eureka: false
